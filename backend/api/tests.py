@@ -2,7 +2,7 @@ from http import HTTPStatus
 
 from django.test import Client, TestCase
 
-from api import models  # type: ignore
+from api import models  # isort: skip
 
 
 class TaskiAPITestCase(TestCase):
